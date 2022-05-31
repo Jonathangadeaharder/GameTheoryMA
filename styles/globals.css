@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply h-screen;
+    }
+    #__next {
+        @apply h-screen;
+        @apply w-screen;
+    }
+}
